@@ -4,7 +4,7 @@ public struct TestPackge {
     public init() {
     }
     
-    public func hellowToyou()->String{
-        return "Here i am"
+    public func testFunc()->String {
+        return "here i am"
     }
 }
