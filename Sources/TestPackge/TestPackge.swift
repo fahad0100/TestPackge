@@ -12,3 +12,10 @@ public struct TestPackge {
         return view1
     }
 }
+public class TestDropMenu:UIView {
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+}
