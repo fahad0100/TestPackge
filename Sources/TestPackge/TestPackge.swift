@@ -15,11 +15,13 @@ public struct TestPackge {
 public class TestDropMenu:UIView {
     override init(frame: CGRect) {
            super.init(frame: frame)
-        self.backgroundColor = .red
+        
+        
        }
 
        required init?(coder aDecoder: NSCoder) {
            super.init(coder: aDecoder)
+           self.backgroundColor = .red
        }
     
     
