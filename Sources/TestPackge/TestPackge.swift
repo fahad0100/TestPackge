@@ -1,10 +1,14 @@
+import UIKit
+import CoreGraphics
 public struct TestPackge {
     public  var text = "Hello, World!"
 
     public init() {
     }
     
-    public func testFunc()->String {
-        return "here i am"
+    public func testFunc()->UIView {
+        let view1 = UIView(frame: CGRect(x: 20, y: 100, width: 200, height: 200))
+        view1.backgroundColor = .red
+        return view1
     }
 }
