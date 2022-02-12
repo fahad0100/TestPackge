@@ -1,6 +1,10 @@
 public struct TestPackge {
-    public private(set) var text = "Hello, World!"
+    public  var text = "Hello, World!"
 
     public init() {
+    }
+    
+    public func hellowToyou()->String{
+        return "Here i am"
     }
 }
