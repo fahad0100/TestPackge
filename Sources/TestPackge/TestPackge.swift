@@ -13,15 +13,16 @@ public struct TestPackge {
     }
 }
 public class TestDropMenu:UIView {
-//    override init(frame: CGRect) {
-//           super.init(frame: frame)
-//        
-//        
-//       }
+
+    
 
        required init?(coder aDecoder: NSCoder) {
            super.init(coder: aDecoder)
            self.backgroundColor = .red
+           var button = UIButton(frame: CGRect(x: self.frame.minX / 2, y: 40, width: self.frame.minX / 2, height: 45))
+           button.setTitleColor(.black, for: .normal)
+           button.setTitle("Selected", for: .normal)
+           self.addSubview(button)
        }
     
     
